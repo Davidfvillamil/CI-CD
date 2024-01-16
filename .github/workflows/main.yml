@@ -33,7 +33,8 @@ jobs:
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v21
         with:
-          vercelToken: ${{ F3ae2EiTzF0on6NODLg1fDdB }}
+          vercelToken: ${{ secrets.VERCEL_TOKEN }}
+
 
 
 
